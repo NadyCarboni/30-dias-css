@@ -5,4 +5,13 @@
 - Realizar um projeto por dia
 - Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS
 - O projeto deve ser concluído até 23:59
-# Amanhã, dia (15/06) começo a postar :)
+## Dia 1 - Ícone de mídia social em camadas
+![Dia 1](https://github.com/NadyCarboni/30-dias-css/blob/main/Dia%201/Dia%201.gif?raw=true)
+
+- Meu código: [aqui](https://github.com/NadyCarboni/30-dias-css/tree/main/Dia%201)
+- tutorial em breve :)
+### O que aprendi:
+- Fazer camadas com a tag "span"
+- Utilizei transições
+- Efeito Hover
+- nth-child()
