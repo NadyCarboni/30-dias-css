@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin: 60px;
+  -webkit-transform: rotate(-30deg) skew(30deg);
+          transform: rotate(-30deg) skew(30deg);
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 1px 1px 6px #777;
+          box-shadow: 1px 1px 6px #777;
+}
+
+ul li:first-child span {
+  background-color: #1da1f2;
+}
+
+ul li:nth-child(2) span {
+  background-color: #385898;
+}
+
+ul li:nth-child(3) span {
+  background: -webkit-gradient(linear, left top, left bottom, from(#405DE6), color-stop(#5851DB), color-stop(#833AB4), color-stop(#C13584), color-stop(#E1306C), color-stop(#FD1D1D), color-stop(#F56040), color-stop(#F77737), color-stop(#FCAF45), to(#FFDC80));
+  background: linear-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+
+ul li:nth-child(4) span {
+  background-color: #cc0000;
+}
+
+ul li span {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+ul li span:nth-child(5) {
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ul li span:nth-child(4) {
+  opacity: 0.7;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+ul li span:nth-child(3) {
+  opacity: 0.5;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+ul li span:nth-child(2) {
+  opacity: 0.3;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+ul li span:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ul li:hover span:nth-child(4) {
+  opacity: 0.7;
+  -webkit-transform: translate(30px, -30px);
+          transform: translate(30px, -30px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+ul li:hover span:nth-child(3) {
+  opacity: 0.5;
+  -webkit-transform: translate(20px, -20px);
+          transform: translate(20px, -20px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+ul li:hover span:nth-child(2) {
+  opacity: 0.1;
+  -webkit-transform: translate(10px, -10px);
+          transform: translate(10px, -10px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+ul li:hover span:nth-child(5) {
+  opacity: 1;
+  -webkit-transform: translate(40px, -40px);
+          transform: translate(40px, -40px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+ul li:hover span:nth-child(1) {
+  color: transparent;
+  cursor: pointer;
+}
+
+ul li i {
+  color: #fff;
+}
