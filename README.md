@@ -15,3 +15,4 @@
 - Utilizei transições
 - Efeito Hover
 - nth-child()
+- (nesse desafio resolvi utilizar SASS, para praticar)
