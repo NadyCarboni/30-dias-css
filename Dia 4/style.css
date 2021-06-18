@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #343f56;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 0.5rem;
+  background-color: #343f56;
+  border-radius: 12x;
+}
+
+a {
+  padding: 1rem;
+  background-color: #343f56;
+  color: #f8f5f1;
+  font-family: 'open sans';
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  border: 3px solid #f8f5f1;
+  position: relative;
+}
+
+a:hover::before {
+  content: '';
+  background-color: #343f56;
+  width: 15px;
+  height: 5px;
+  position: relative;
+  top: -1.15rem;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  left: 95%;
+}
+
+a:hover::after {
+  content: '';
+  background-color: #343f56;
+  width: 15px;
+  height: 5px;
+  position: relative;
+  top: 1.15rem;
+  left: -5%;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a::before {
+  content: '';
+  background-color: #343f56;
+  width: 15px;
+  height: 5px;
+  position: relative;
+  top: -1.15rem;
+  left: -5%;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a::after {
+  content: '';
+  background-color: #343f56;
+  width: 15px;
+  height: 5px;
+  position: relative;
+  top: 1.15rem;
+  left: 95%;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=style.css.map */
