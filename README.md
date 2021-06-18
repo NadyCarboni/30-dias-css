@@ -16,3 +16,11 @@
 - Efeito Hover
 - nth-child()
 - (nesse desafio resolvi utilizar SASS, para praticar)
+## Dia 2 - Loader animado
+![Dia 2](https://github.com/NadyCarboni/30-dias-css/blob/main/Dia%202/dia-2.gif?raw=true)
+
+- Meu código: [aqui](https://github.com/NadyCarboni/30-dias-css/tree/main/Dia%202)
+- tutorial em breve :)
+### O que aprendi:
+- Pratiquei animações
+- (nesse desafio resolvi utilizar SASS, para praticar)
