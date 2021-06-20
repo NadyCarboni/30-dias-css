@@ -5,6 +5,9 @@
 - Realizar um projeto por dia
 - Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS
 - O projeto deve ser concluído até 23:59
+
+### O README vou atualizando aos poucos :)
+
 ## Dia 1 - Ícone de mídia social em camadas
 ![Dia 1](https://github.com/NadyCarboni/30-dias-css/blob/main/Dia%201/Dia%201.gif?raw=true)
 
