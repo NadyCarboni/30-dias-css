@@ -27,3 +27,13 @@
 ### O que aprendi:
 - Pratiquei animações
 - (nesse desafio resolvi utilizar SASS, para praticar)
+
+## Dia 3 - Loader animado
+![Dia 3](https://github.com/NadyCarboni/30-dias-css/blob/main/Dia%203/dia-3.gif?raw=true)
+
+- Meu código: [aqui](https://github.com/NadyCarboni/30-dias-css/tree/main/Dia%203)
+- tutorial em breve :)
+### O que aprendi:
+- Pratiquei animações
+- Utilizei Overflow: hidden;
+- (nesse desafio resolvi utilizar SASS, para praticar)
