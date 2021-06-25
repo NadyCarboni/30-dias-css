@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'nunito sans';
+    font-weight: bold;
+    border: 1px solid #445E93;
+    color: #445E93;
+    border-radius: 5px;
+    padding: 1rem ;
+    position: relative;
+    transition: 0.5s;
+}
+
+a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #445E93;
+    border-radius: 0 0 100% 100%;
+    transition: 0.5s;
+    z-index: -1;
+    
+    
+}
+
+a:hover {
+    
+    transition: 1s;
+    color: #fff;
+}
+
+a:hover::before{
+    height: 100%;
+    border-radius: 0%;
+   
+} 
