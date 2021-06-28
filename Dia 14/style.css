@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'Lobster' ;
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 8rem;
+	text-align: center;
+	background: url('./guillaume-galtier-3YrppYQPoCI-unsplash.jpg');
+	-webkit-background-clip: text;
+	
+	color: transparent;
+	animation: moving 20s linear infinite alternate-reverse;
+}
+
+@keyframes moving {
+ 
+
+	to { background-position: 100% 100% }
+}
