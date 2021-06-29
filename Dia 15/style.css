@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center; 
+    background-color: #afb9c8;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Playful display';
+   color: #fff;
+   letter-spacing: 5px;
+    text-shadow:  rgba(0, 0, 0, 0.5) 3px 8px 10px; 
+    animation: mover 3s infinite;
+    transform: rotate(25deg);
+}
+
+@keyframes mover {
+    50% {
+        transform: rotate(-25deg);
+    }
+
+    100% {
+        transform: rotate(rotate(0deg));
+    }
+}
