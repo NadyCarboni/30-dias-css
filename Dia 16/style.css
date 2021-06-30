@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #999b84;
+    color: #f4eeed;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+
+}
+a {
+    position: relative;
+    text-decoration: none;
+    padding: 1rem;
+    border: 2px #f4eeed solid;
+    overflow: hidden;
+    font-size: 2rem;
+    cursor: pointer;
+     border-radius: 30px;
+}
+
+a::before {
+    content: 'Yes';
+    position: absolute;
+    width: 100%;
+    color: #999b84;
+    background-color: #f4eeed;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 0%;
+    left: 0;
+    top: 0;
+    
+    transition: 0.5s;
+}
+a:hover::before {
+   height: 100%;
+   transition: 0.5s;
+}
