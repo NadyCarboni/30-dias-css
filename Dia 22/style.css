@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#icones {
+    display: flex;
+}
+
+#icones .icone {
+    margin: 1rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px #f29191 solid ;
+    color: #f29191;
+    position: relative;
+    
+}
+
+
+#icones .icone:before {
+    content: '';
+    width: 5rem;
+    height: 5rem;
+    background-color: transparent;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+   
+    opacity: 1;
+    transition: all 0.5s;
+    
+
+}
+#icones .icone:hover:before{
+    background-color: #f29191;
+        width: 4rem;
+        height: 4rem;
+}
+
+
+
+
+#icones .icone:after{
+    content: '';
+    width: 5rem;
+    height: 5rem;
+    border: 1px dashed #f29191;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    
+    opacity: 1;
+    transition: all 0.5s;
+
+}
+#icones .icone:hover:after {
+    width: 4.5rem;
+    height: 4.5rem;
+    animation: rotate 5s infinite ease-in-out;
+}
+
+#icones .icone:hover i {
+    color: #fff;
+    transition: 1s;
+}
+
+/* Animation */
+
+@keyframes rotate {
+    
+        
+        100% { transform: rotate(360deg); }
+      
+}
