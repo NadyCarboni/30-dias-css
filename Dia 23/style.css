@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    
+}
+
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #333;
+    padding: 1rem;
+    border: 3px solid #333;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: red;
+    border: 3px solid red;
+
+    animation: move 0.5s infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+}
