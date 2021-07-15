@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.check {
+    display: flex;
+    position: relative;
+    
+} 
+
+.check .checks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check .checks label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.check input {
+  opacity: 0;
+  position: absolute;
+  
+   height: 60px;
+   width: 60px;
+   cursor: pointer;
+  
+}
+
+.check .imagem{
+    position: relative;
+   cursor: pointer;
+   z-index: -1;
+   
+   
+}
+
+
+ 
+.check .checks label input[type="checkbox"]:checked ~ .imagem img
+{
+    animation: color 3s infinite;
+}
+
+.check .checks label input[type="checkbox"] ~ .imagem img
+{
+    filter: grayscale(100%);
+}
+
+@keyframes color {
+    0%  {
+        filter: hue-rotate(50deg);
+    }
+    
+    50%  {
+        filter: hue-rotate(360deg);
+    }
+
+
+    100% {
+        filter: hue-rotate(50deg);
+    }
+}
